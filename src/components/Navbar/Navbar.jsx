@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <header className="fixed top-0 w-full h-28 flex justify-between items-center bg-white text-black">
       {/* Logo */}
-      <div className='ml-20'>
+      <div className='sm:ml-20 lg:ml-20'>
         <img src={Logo} alt="" />
       </div>
 
@@ -35,49 +35,53 @@ function Navbar() {
           >
             {/* Menu Icon */}
             {isMobileMenuOpen ? (
-              <FaTimes className="w-6 h-6" />
+              <FaTimes className="w-6 h-6 mr-20" />
             ) : (
-              <FaBars className="w-6 h-6 mr-6" />
+              <FaBars className="w-6 h-6 lg:mr-6" />
             )}
           </button>
           {/* Mobile Menu Content */}
           {isMobileMenuOpen && (
-            <div className="bg-[#2c2c2c] mt-96 text-white -mr-4 py-8 px-6">
+            
+            <div className="fixed top-0 left-0 z-50 w-screen h-screen bg-[#2c2c2c] py-8 px-6">
               <p onClick={closeMobileMenu}>
-                <FaTimes className="w-10 h-10 ml-36 mb-4" />
+                <FaTimes className="w-10 h-10 ml-72 mb-2 text-white" />
               </p>
               <ul className="space-y-2">
-                <li>
-                  <Link className="text-black font-semibold" to="/">
+                <li className='pb-4 pt-20'>
+                  <Link className=" text-white text-3xl font-semibold" to="/">
                     Hotel
                   </Link>
                 </li>
-                <li>
-                  <Link className="text-black font-semibold " to="">
+                <li className='pb-4'>
+                  <Link className=" text-white text-3xl  text-whitefont-semibold " to="">
                     Brand
                   </Link>
                 </li>
-                <li>
-                  <Link className="text-black font-semibold " to="">
+                <li className='pb-4'>
+                  <Link className=" text-white text-3xl font-semibold " to="">
                     About Us
                   </Link>
                 </li>
-                <li>
-                  <Link className="text-black font-semibold" to="/">
+                <li className='pb-4'>
+                  <Link className=" text-white text-3xl font-semibold" to="/">
                     How it Works
                   </Link>
                 </li>
-                <li>
-                  <Link className="text-black font-semibold " to="/">
+                <li className='pb-4'>
+                  <Link className=" text-white text-3xl font-semibold " to="/">
                     Pricing
                   </Link>
                 </li>
-                <li>
-                  <Link className="" to="#">
+                <li className='pb-4'>
+                  <Link className=" text-white text-3xl font-semibold" to="#">
                     Contact
                   </Link>
                 </li>
               </ul>
+              <div className=''>
+          <BsPersonCircle className='w-8 h-8 text-white' />
+        </div>
             </div>
           )}
         </div>
@@ -120,7 +124,7 @@ function Navbar() {
       </nav>
 
       {/* Flags and User */}
-      <div className=" flex items-center gap-4 space-x-4 mr-20">
+      <div className=" flex items-center gap-4 space-x-4 lg:mr-20">
         <div className="hidden sm:block">
           <ReactCountryFlag countryCode="GB" svg className='w-8 h-8' />
         </div>
