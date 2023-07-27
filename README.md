@@ -1,0 +1,1 @@
+# hotels-fashion-assessment
