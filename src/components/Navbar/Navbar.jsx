@@ -19,7 +19,7 @@ function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 w-full h-28 flex justify-between items-center bg-white text-black">
+    <header className="fixed top-0 w-full h-24 flex justify-between items-center bg-white text-black">
       {/* Logo */}
       <div className='sm:ml-20 lg:ml-20'>
         <img src={Logo} alt="" />
