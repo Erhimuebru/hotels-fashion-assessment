@@ -5,13 +5,13 @@ import ReviewDetailsCard from "./ReviewDetailsCard";
 import { ChevronRightIcon} from "@heroicons/react/24/outline"
 const Review = () => {
     return (
-       <div className="bg-[pink] pb-44">
-        <h3 className="text-center text-3xl pt-24 pb-28">What Our Clients Are Saying About Us</h3>
+       <div className="bg-[pink] pb-10">
+        <h3 className="text-center text-3xl pt-20 pb-20">What Our Clients Are Saying About Us</h3>
 
 
 
         <div className="swallow-card-container">
-         <div className="flex flex-row rounded-sm">
+         <div className="flex flex-row rounded-sm ml-16">
               <div className="flex flex-row gap-5 rounded-sm">
               {ReviewData?.map((category) => (
              <ReviewDetailsCard
