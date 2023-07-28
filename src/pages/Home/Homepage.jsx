@@ -5,6 +5,7 @@ import BrandCard from "../../components/BrandCard/BrandCard";
 import HotelCard from "../../components/HotelCard/HotelCard";
 import AvailableCard from  "../../components/AvailableCard/AvailableCard"
 import Review from "../../components/Review/Review";
+import Footer from "../../components/Footer/Footer";
 const HomePage = () => {
     return ( 
         <>
@@ -40,6 +41,8 @@ const HomePage = () => {
 </div>
 
 <Review/>
+
+<Footer/>
        
         </>
      );
