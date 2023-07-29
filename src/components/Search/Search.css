@@ -43,6 +43,12 @@
     object-fit: cover;
     filter: brightness(50%);
   }
+
+  .arrow{
+    padding-left: -5rem;
+  }
+
+
   }
   
   
