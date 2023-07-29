@@ -9,10 +9,8 @@ const Review = () => {
       <h3 className="text-center text-3xl pt-20 pb-20">What Our Clients Are Saying About Us</h3>
 
       <div className="swallow-card-container overflow-x-auto">
-        {/* Added the overflow-x-auto class */}
-        <div className="flex flex-row rounded-sm ml-16">
+        <div className="flex flex-row rounded-sm ml-4 sm:ml-4">
           <div className="flex flex-row gap-5 rounded-sm">
-            {/* Removed the overflow-x-auto class from here */}
             {ReviewData?.map((category) => (
               <ReviewDetailsCard
                 key={category.id}

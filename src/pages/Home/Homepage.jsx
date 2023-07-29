@@ -10,9 +10,9 @@ import Section from "../../components/Section/Section";
 const HomePage = () => {
     return ( 
         <>
-        <Hero />
+        {/* <Hero /> */}
      
-           <Navbar />
+           {/* <Navbar /> */}
 
 
 <div className=" mt-16 mb-44">
@@ -47,7 +47,7 @@ const HomePage = () => {
 
 <Review/>
 
-<Footer/>
+{/* <Footer/> */}
        
         </>
      );

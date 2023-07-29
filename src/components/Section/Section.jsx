@@ -1,6 +1,6 @@
 import React from "react";
 
-import { HeartIcon, ChevronRightIcon, ChevronLeftIcon, ArrowRightCircleIcon} from "@heroicons/react/24/outline"
+import { ArrowRightCircleIcon} from "@heroicons/react/24/outline"
 
 const Section = () => {
     return (
@@ -15,9 +15,9 @@ const Section = () => {
             <div className="flex flex-col lg:mt-24 ml-20 sm:mt-10">
                 <h2 className=" text-gray-700 mb-4">Exceptaional Brands</h2>
                 <h2 className=" text-gray-700 mb-4">Exclusive Brands</h2>
-                <h2  className=" text-gray-700 mb-4">Verified for Quality Services</h2>
-                <div className="mt-10">
-                    <button className="flex  flex-row bg-white text-red-800 pb-2 pr-4 pl-4 pt-2 rounded-md">Learn More
+                <h2  className=" text-gray-700 mb-4 md:mb-2">Verified for Quality Services</h2>
+                <div className="mt-10 sm:mb-5">
+                    <button className="flex flex-row bg-white text-red-800 pb-2 pr-4 pl-4 pt-2 mb-4 rounded-md">Learn More
                     <ArrowRightCircleIcon className="w-5 h-5 mt-1 ml-2"/>
                     </button>
                 {/* <p className=" p-4 mb-4">Learn More</p> */}

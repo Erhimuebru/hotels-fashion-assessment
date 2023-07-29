@@ -1,6 +1,6 @@
 export const AvailableData =[
     {id:'1',
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+    img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690578203/hotel_qvclfx.jpg",
        location : "Berkshire",
         name:"The Vineyard",
         Availability:"Fully Booked",
@@ -11,7 +11,7 @@ export const AvailableData =[
 
   {
     id:'2',
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+    img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690578203/hotel_qvclfx.jpg",
    location : "Sunderland",
     name:"Grand Hotel",
     availability:"Space  Available",
@@ -21,7 +21,7 @@ export const AvailableData =[
 },
 {
     id:'3',
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+    img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690578203/hotel_qvclfx.jpg",
    location : "Ruthland",
     name:"Hambleton Hall",
     availability:"Fully Booked",
@@ -31,7 +31,7 @@ export const AvailableData =[
 },
 {
     id:'5',
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+    img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690578203/hotel_qvclfx.jpg",
    location : "Lancaster",
     name:"The Lowry Hotel",
     availability:"Fully Booked",
@@ -40,7 +40,7 @@ export const AvailableData =[
 
 },
 {id:'1',
-img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690578203/hotel_qvclfx.jpg",
 location : "Berkshire",
 name:"The Vineyard",
 Availability:"Fully Booked",
@@ -51,7 +51,7 @@ price:"70.00"
 
 {
 id:'2',
-img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690578203/hotel_qvclfx.jpg",
 location : "Sunderland",
 name:"Grand Hotel",
 availability:"Space  Available",
@@ -61,7 +61,7 @@ price:"65.00"
 },
 {
 id:'3',
-img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690578203/hotel_qvclfx.jpg",
 location : "Ruthland",
 name:"Hambleton Hall",
 availability:"Fully Booked",
@@ -71,7 +71,7 @@ price:"50.00"
 },
 {
 id:'5',
-img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690578203/hotel_qvclfx.jpg",
 location : "Lancaster",
 name:"The Lowry Hotel",
 availability:"Fully Booked",
