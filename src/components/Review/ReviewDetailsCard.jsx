@@ -1,7 +1,6 @@
 import React from 'react'
 import {StarIcon} from "@heroicons/react/24/solid"
 import {MapPinIcon} from "@heroicons/react/24/solid"
-// import "./BrandCard.css"
 
 
 const ReviewDetailsCard = ({
@@ -42,13 +41,9 @@ className=" relative w-96 pl-3 mb-1 rounded-md bg-white shadow">
 
    
        </div>
-    <p className='pb-4 text-black'>"{comments}"</p>
+    <p className='pb-4 text-[gray]'>"{comments}"</p>
    
-
- 
-
-
-</div>
+        </div>
 
 
 

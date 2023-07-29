@@ -1,8 +1,6 @@
 // Hero.js
 import React from "react";
 import Banner from "../../assets/hotel.jpeg";
-import { BiSearch } from 'react-icons/bi';
-import { RiArrowDropDownLine } from 'react-icons/ri';
 import "./Hero.css";
 import SearchComponents from "../Search/Search";
 
@@ -10,7 +8,7 @@ import SearchComponents from "../Search/Search";
 const Hero = () => {
   return (
   
-    <><div className="mt-28 relative">
+    <><div className=" relative">
       <img
         style={{ filter: "brightness(50%)" }}
         className="hero-image"

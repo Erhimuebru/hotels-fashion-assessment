@@ -1,23 +1,21 @@
-/* Hero.css
 
-/* Add general styles for the hero container */
 .hero-container {
     position: relative;
-    margin-top: 4rem; /* Adjust as needed */
+    margin-top: 4rem;
   }
   
   .search-icons{
     padding: 1.1rem;
   }
-  /* Add styles for the hero image */
+
   .hero-image {
     width: 100%;
-    height: 38.5rem; /* Adjust height as needed for the default view */
+    height: 38.5rem; 
     object-fit: cover;
     filter: brightness(50%);
   }
   
-  /* Add styles for the hero content */
+ 
   .hero-content {
     position: absolute;
     top: 50%;
@@ -26,20 +24,19 @@
     text-align: center;
     color: white;
   }
-  
-  /* Add styles for the hero title */
+
   .hero-title {
     font-size: 2.82rem;
-    font-weight: bold;
+    font-weight: bolder;
   }
   
-  /* Add styles for the hero subtitle */
+
   .hero-subtitle {
     font-size: 1rem;
     margin-top: 1rem;
   }
   
-  /* Add styles for the search container */
+
   .search-container {
     display: flex;
     flex-direction: column;
@@ -48,7 +45,7 @@
     margin-top: 2rem;
   }
   
-  /* Add styles for the search input container */
+
   .search-input-container {
     display: flex;
     align-items: center;
@@ -59,7 +56,7 @@
     padding: 0.5rem;
   }
   
-  /* Add styles for the search input field */
+
   .search-input {
     flex: 1;
     border: none;
@@ -68,7 +65,6 @@
     margin-left: 0.5rem;
   }
   
-  /* Add styles for the duration select container */
   .duration-select-container {
     display: flex;
     align-items: center;
@@ -79,7 +75,7 @@
     padding: 0.5rem;
   }
   
-  /* Add styles for the duration input field */
+
   .duration-input {
     flex: 1;
     border: none;
@@ -88,14 +84,14 @@
     margin-left: 0.5rem;
   }
   
-  /* Add styles for the duration dropdown icon */
+
   .duration-dropdown-icon {
     font-size: 1.5rem;
     margin-left: 0.5rem;
     color: gray;
   }
   
-  /* Add styles for the search button */
+
   .search-button {
     background-color: red;
     color: white;
@@ -103,13 +99,12 @@
     padding: 0.75rem 1rem;
     cursor: pointer;
   }
-  
-  /* Add styles for the search icon inside the button */
+ 
   .search-button .search-icon {
     font-size: 1.5rem;
   }
   
-  /* Media query for screens smaller than 768px (e.g., mobile screens) */
+ 
   @media (max-width: 767px) {
     .hero-content {
       width: 90%;
@@ -117,7 +112,7 @@
     }
   
     .hero-image {
-      height: 35rem; /* Adjust height for mobile view */
+      height: 35rem; 
     }
   
     .hero-title {

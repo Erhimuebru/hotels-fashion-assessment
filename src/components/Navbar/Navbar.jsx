@@ -19,31 +19,31 @@ function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 w-full h-24 mb-20 flex justify-between items-center bg-white text-black">
+    <header className="relative top-0 w-full h-24 flex justify-between items-center bg-white text-black">
       {/* Logo */}
       <div className='sm:ml-20 lg:ml-20'>
         <img src={Logo} alt="" />
       </div>
 
-      {/* Navigation */}
+
       <nav className="flex flex-grow justify-center">
-        {/* Mobile Menu */}
+     
         <div className="sm:hidden">
           <button
             className="text-black focus:outline-none"
             onClick={toggleMobileMenu}
           >
-            {/* Menu Icon */}
             {isMobileMenuOpen ? (
               <FaTimes className="w-6 h-6 mr-20" />
             ) : (
               <FaBars className="w-6 h-6 lg:mr-6" />
             )}
           </button>
-          {/* Mobile Menu Content */}
+
+
           {isMobileMenuOpen && (
             
-            <div className="fixed top-0 left-0 z-50 w-screen h-screen bg-[#2c2c2c] py-8 px-6">
+            <div className="fixed top-0 left-0 z-50 w-screen h-screen bg-[#2c2c2c] py-6 px-6">
               <p onClick={closeMobileMenu}>
                 <FaTimes className="w-10 h-10 ml-72 mb-2 text-white" />
               </p>
@@ -123,7 +123,7 @@ function Navbar() {
         </ul>
       </nav>
 
-      {/* Flags and User */}
+    
       <div className=" flex items-center gap-4 space-x-4 lg:mr-20">
         <div className="hidden sm:block">
           <ReactCountryFlag countryCode="GB" svg className='w-8 h-8' />

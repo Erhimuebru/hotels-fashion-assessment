@@ -1,90 +1,90 @@
 export const BrandData =[
     {id:'1',
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+        img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690671134/WhatsApp_Image_2023-07-29_at_11.44.12_PM_g79pld.jpg",
        location : "Berkshire",
-        name:"The Vineyard",
+        name:"Tobams Color",
         Availability:"Fully Booked",
         rating:"5.0",
         price:"70.00",
-        discription:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore..."
+        discription:"Tobams Colors has been created to provide worldwide identity within A..."
 
     },
 
   {
     id:'2',
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+    img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690671133/WhatsApp_Image_2023-07-29_at_11.45.04_PM_bprctb.jpg",
    location : "Sunderland",
-    name:"Grand Hotel",
+    name:"Collxx",
     availability:"Space  Available",
     rating:"4.8",
     price:"65.00",
-    discription:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore..."
+    discription:"The collxx, is a multinational platform that promotes sustainability of all th..."
 
 },
 {
     id:'3',
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+    img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690671133/WhatsApp_Image_2023-07-29_at_11.46.00_PM_dlgybt.jpg",
    location : "Ruthland",
-    name:"Hambleton Hall",
+    name:"The Royal Seams",
     availability:"Fully Booked",
     rating:"4.5",
     price:"50.00",
-    discription:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore..."
+    discription:"At The Royal Seams, we believe that fashion is more than just clothing..."
 
 },
 {
     id:'5',
-    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+    img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690671133/WhatsApp_Image_2023-07-29_at_11.46.40_PM_nd4lwu.jpg",
    location : "Lancaster",
-    name:"The Lowry Hotel",
+    name:"Imaginary Photography",
     availability:"Fully Booked",
     rating:"5.0",
     price:"65.00",
-    discription:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore..."
+    discription:"Imaginary Photography is not just about capturing moments; it's abo..."
 
 },
 {id:'1',
-img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690671133/WhatsApp_Image_2023-07-29_at_11.47.53_PM_xllrvp.jpg",
 location : "Berkshire",
-name:"The Vineyard",
+name:"Fine Silk Fashion",
 Availability:"Fully Booked",
 rating:"5.0",
 price:"70.00",
-discription:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore..."
+discription:"We believe that the touch and drape of silk have power to track the people..."
 
 },
 
 {
 id:'2',
-img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690671132/WhatsApp_Image_2023-07-29_at_11.48.58_PM_mkusyi.jpg",
 location : "Sunderland",
-name:"Grand Hotel",
+name:"Mirage Wears",
 availability:"Space  Available",
 rating:"4.8",
 price:"65.00",
-discription:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore..."
+discription:"Mirage Wears is a dynamic clothing brand that breathes life into your s..."
 
 },
 {
 id:'3',
-img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690671132/WhatsApp_Image_2023-07-29_at_11.49.35_PM_gd8z0h.jpg",
 location : "Ruthland",
-name:"Hambleton Hall",
+name:"Exclusive Shots",
 availability:"Fully Booked",
 rating:"4.5",
 price:"50.00",
-discription:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore..."
+discription:"Exclusive Shots is a photography brand dedicated to capturing mo..."
 
 },
 {
 id:'5',
-img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+img: "https://res.cloudinary.com/dmfb370xe/image/upload/v1690671132/WhatsApp_Image_2023-07-29_at_11.50.26_PM_jiqmne.jpg",
 location : "Lancaster",
-name:"The Lowry Hotel",
+name:"Aperture Studios",
 availability:"Fully Booked",
 rating:"5.0",
 price:"65.00",
-discription:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore..."
+discription:"Aperture Studios is a photography brand dedicated to the art of visua..."
 
 },
 

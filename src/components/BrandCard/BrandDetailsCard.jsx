@@ -27,7 +27,7 @@ className=" relative  w-80 mt-4  pl-3 mb-1 rounded-md bg-white shadow">
 <ChevronLeftIcon className='w-6 h-6 text-[gray] bg-transparent' />
 </div>
 
-<div className="absolute top-24 right-8 bg-slate-50 p-1 rounded-full bg-transparent">
+<div className="absolute top-24 right-8 bg-slate-50 p-1 rounded-full">
 
 <ChevronRightIcon className="w-6 h-6 text-gray-600 bg-transparent" />
 </div>
@@ -35,7 +35,7 @@ className=" relative  w-80 mt-4  pl-3 mb-1 rounded-md bg-white shadow">
 
 <div className="px-3 pb-4 ">
 
-    <p className=" text-lg pt-4 pb-4">{title}</p>
+    <p className=" text-lg font-semibold pt-4 pb-4">{title}</p>
     <div className="flex-row flex items-center gap-32 mb-4">
         <div className=''>
         
@@ -45,11 +45,7 @@ className=" relative  w-80 mt-4  pl-3 mb-1 rounded-md bg-white shadow">
         
        
     </div>
-  
-
-
-
-</div>
+  </div>
 </div>
 
 

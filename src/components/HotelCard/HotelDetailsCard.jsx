@@ -65,9 +65,6 @@ const HotelDetailsCard = ({
             </div>
         </div>
       
-
-
-
         </>  
         
     );

@@ -1,7 +1,7 @@
 import React from "react";
 import { ReviewData } from "./ReviewData";
 import ReviewDetailsCard from "./ReviewDetailsCard";
-import { ChevronRightIcon } from "@heroicons/react/24/outline"; // Changed the icon import
+import { ChevronRightIcon } from "@heroicons/react/24/outline"; 
 
 const Review = () => {
   return (
@@ -10,7 +10,7 @@ const Review = () => {
 
       <div className="swallow-card-container overflow-x-auto">
         <div className="flex flex-row rounded-sm ml-4 sm:ml-4">
-          <div className="flex flex-row gap-5 rounded-sm">
+          <div className="flex flex-row gap-5 lg:gap-20 lg:ml-14 mr-14 rounded-sm">
             {ReviewData?.map((category) => (
               <ReviewDetailsCard
                 key={category.id}
