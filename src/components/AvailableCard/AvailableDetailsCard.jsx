@@ -34,7 +34,7 @@ className=" relative  w-80 mt-4  pl-3 mb-1 rounded-md bg-white shadow">
 <ChevronLeftIcon className='w-6 h-6 text-[gray] bg-transparent' />
 </div>
 
-<div className="absolute top-24 right-8 bg-slate-50 p-1 rounded-full bg-transparent">
+<div className="absolute top-24 right-8 bg-slate-50 p-1 rounded-full">
 <ChevronRightIcon className="w-6 h-6 text-gray-600 bg-transparent" />
 </div>
 
