@@ -8,4 +8,9 @@
   .containe {
     margin-left: 20px;
   }
+
+  .footer-bottom{
+    background-color: black;
+    width: 100%;
+  }
 }

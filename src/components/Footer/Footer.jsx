@@ -58,7 +58,7 @@ const Footer = () => {
       </div>
 
     </footer>
-     <div className='bg-black'>        
+     <div className='footer-bottom bg-black'>        
      <p className="pl-3 pt-3 pb-1 text-gray-400">Hotel Fashion {2023}. © All rights reserved.</p>
      </div>
      </>
