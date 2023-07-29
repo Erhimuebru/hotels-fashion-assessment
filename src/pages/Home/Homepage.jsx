@@ -10,12 +10,10 @@ import Section from "../../components/Section/Section";
 const HomePage = () => {
     return ( 
         <>
-        {/* <Hero /> */}
+        <Hero />
      
-           {/* <Navbar /> */}
-
-
-<div className=" mt-16 mb-44">
+      
+<div className=" mt-32 mb-44">
 <HotelCard
             id="1234"
              title='Trending Hotels'
@@ -47,7 +45,7 @@ const HomePage = () => {
 
 <Review/>
 
-{/* <Footer/> */}
+<Footer/>
        
         </>
      );

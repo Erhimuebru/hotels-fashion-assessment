@@ -8,6 +8,19 @@
     align-items: center;
   }
 
+
 }
+
+@media (max-width: 767px) {
+ 
+    .heading {
+   
+        font-size: 14px;
+  
+  
+  }
+
+}
+
 
 
