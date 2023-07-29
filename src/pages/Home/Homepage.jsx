@@ -6,6 +6,7 @@ import HotelCard from "../../components/HotelCard/HotelCard";
 import AvailableCard from  "../../components/AvailableCard/AvailableCard"
 import Review from "../../components/Review/Review";
 import Footer from "../../components/Footer/Footer";
+import Section from "../../components/Section/Section";
 const HomePage = () => {
     return ( 
         <>
@@ -14,7 +15,7 @@ const HomePage = () => {
            <Navbar />
 
 
-<div className="ml-12 mt-16 mb-44">
+<div className=" mt-16 mb-44">
 <HotelCard
             id="1234"
              title='Trending Hotels'
@@ -23,7 +24,7 @@ const HomePage = () => {
 
 </div>
           
-<div className="ml-12 mt-16 mb-44">
+<div className=" mt-16 mb-44">
            <BrandCard
                   id="1234"
                   title='Trending Brands'
@@ -31,7 +32,11 @@ const HomePage = () => {
             />
             </div>
 
-<div className="ml-12 mt-16 mb-44">
+            <div>
+               <Section/>
+            </div>
+
+<div className=" mt-16 mb-44">
                 <AvailableCard
                   id="1234"
                   title='Available Hotel Space'

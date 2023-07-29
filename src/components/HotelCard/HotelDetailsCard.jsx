@@ -37,9 +37,9 @@ const HotelDetailsCard = ({
 <ChevronLeftIcon className='w-6 h-6 text-[gray] bg-transparent' />
 </div>
 
-<div className="absolute top-24 right-8 bg-slate-50 p-1 rounded-full bg-transparent">
-      {/* Add bg-transparent to make the background transparent */}
-      <ChevronRightIcon className="w-6 h-6 text-gray-600 bg-transparent" />
+<div className="absolute top-24 right-8 bg-slate-50 p-1 rounded-full ">
+   
+      <ChevronRightIcon className="w-6 h-6 text-[gray] bg-transparent" />
     </div>
           
 
@@ -58,7 +58,7 @@ const HotelDetailsCard = ({
                    
                 </div>
                 <p className='pb-4 text-red-800'>{availability}</p>
-                <p className="flex flex-row text-gray-500">From <p className='font-bold pl-1 text-black'>{price}</p>/day </p>
+                <p className="flex flex-row text-gray-500">From <p className='font-bold pl-1 text-black'>€{price}</p>/day </p>
 
            
 

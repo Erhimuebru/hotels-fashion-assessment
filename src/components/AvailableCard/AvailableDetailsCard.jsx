@@ -55,7 +55,7 @@ className=" relative  w-80 mt-4  pl-3 mb-1 rounded-md bg-white shadow">
        
     </div>
     <p className='pb-4 text-red-800'>{availability}</p>
-    <p className="flex flex-row text-gray-500">From <p className='font-bold pl-1 text-black'>{price}</p>/day </p>
+    <p className="flex flex-row text-gray-500">From <p className='font-bold pl-1 text-black'>€{price}</p>/day </p>
 
 
 

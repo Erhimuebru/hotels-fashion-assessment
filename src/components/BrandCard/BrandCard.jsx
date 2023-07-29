@@ -1,64 +1,22 @@
 import React from 'react'
-import { useState, useEffect } from "react";
 import { BrandData } from './BrandData';
 import BrandDetailsCard from './BrandDetailsCard';
 import { ChevronRightIcon} from "@heroicons/react/24/outline"
 import "./BrandCard.css"
-// import { Circle } from 'rc-progress';
+
 
 const BrandCard = ({ id, title, description }) => {
-    // return ( 
-    //     <div className="scroll-container">
-    //     <div className="scroll-content">
-    //       {HotelData?.map((category) => (
-    //         <HotelDetailsCard
-    //           key={category.id}
-    //           id={category.id}
-    //           img={category.img}
-    //           title={category.name}
-    //         rating={category.rating}
-    //           address={category.location}
-    //           price={category.price}
-    //           availibility={category.availability}
-    //         />
-    //       ))}
-    //     </div>
-    //   </div>
-    // const [loading, setLoading] = useState(true); 
-    // const [progress, setProgress] = useState(0);
-  
-    // useEffect(() => {
-    //   const progressInterval = setInterval(() => {
-    //     setProgress((prevProgress) => (prevProgress + 1) % 101);
-    //   }, 20);
-  
-    //   return () => clearInterval(progressInterval);
-    // }, []);
+
   
     return (
         <div className="swallow-card-container">
           <div className="swallow-card-header">
-            <p className="text-black text-4xl">{title}</p>
+            <p className="text-black text-4xl ml-16 mb-4">{title}</p>
           </div>
-          <p className="swallow-card-description">{description}</p>
+          <p className="swallow-card-description ml-16 mb-4">{description}</p>
     
-          {/* {loading ? (
-          <div className="swallow-card-loading relative inline-block">
-
-          <Circle
-            className="loading-icon absolute align-middle flex justify-center"
-            percent={progress}
-            strokeWidth={4}
-            strokeLinecap="round"
-            strokeColor="#00ccbb"
-          />
-          <h1>loading....</h1>
-        </div>
-        
-           
-          ) : ( */}
          <div className="flex flex-row rounded-sm">
-              <div className="flex flex-row gap-5 rounded-sm">
+              <div className="rounded-sm container mx-auto grid grid-cols-4 gap-x-20">
               {BrandData?.map((category) => (
              <BrandDetailsCard
                key={category.id}
@@ -69,6 +27,7 @@ const BrandCard = ({ id, title, description }) => {
                address={category.location}
                price={category.price}
                availibility={category.availability}
+               discription={category.discription}
              />
           ))}
               </div>
