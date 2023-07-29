@@ -126,7 +126,8 @@ function Navbar() {
     
       <div className=" flex items-center gap-4 space-x-4 lg:mr-20">
         <div className="hidden sm:block">
-          <ReactCountryFlag countryCode="GB" svg className='w-8 h-8' />
+          <img src="https://res.cloudinary.com/dmfb370xe/image/upload/v1690671782/uk-flag_duciyw.png" alt="GB flag"  className='w-8 h-8 rounded-full' />
+      
         </div>
 
         <div className='hidden sm:block '>
