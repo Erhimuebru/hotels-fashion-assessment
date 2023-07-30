@@ -24,11 +24,9 @@ useEffect(() => {
   return (
     <>
     <Navbar/>
-  <Routes>
-      <Route path="/" element={<HomePage/>}/>
-      
-  </Routes>
-
+          <Routes>
+              <Route path="/" element={<HomePage/>}/>    
+          </Routes>
   <Footer/>
     </>
   )

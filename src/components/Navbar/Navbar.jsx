@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../../assets/Rectangle 298.png';
 import { Link } from 'react-router-dom';
-import ReactCountryFlag from 'react-country-flag';
 import { BsPersonCircle } from 'react-icons/bs';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 

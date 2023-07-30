@@ -1,7 +1,5 @@
 import React from 'react'
 import {StarIcon} from "@heroicons/react/24/solid"
-import {MapPinIcon} from "@heroicons/react/24/solid"
-
 
 const ReviewDetailsCard = ({
     id,
@@ -18,10 +16,6 @@ const ReviewDetailsCard = ({
  <div
 
 className=" relative w-96 pl-3 mb-1 rounded-md bg-white shadow">
-
-
-
-
 
 <div className="px-3 pb-4 ">
     <div className='flex flex-row gap-16'>
