@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/Home/Homepage";
 import Navbar from "./components/Navbar/Navbar";
 import Loading from "./components/Loading/Loading";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -27,6 +28,8 @@ useEffect(() => {
       <Route path="/" element={<HomePage/>}/>
       
   </Routes>
+
+  <Footer/>
     </>
   )
 }
