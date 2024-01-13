@@ -38,7 +38,7 @@ To get started with the project, follow these steps:
 1. Clone the repository: `git clone https://github.com/Erhimuebru/hotels-fashion-assessment.git`
 2. Navigate to the project directory: `cd hotels-fashion-assessment`
 3. Run npm i or yarn to install all dependencies
-4. Run npm run dev or yarn from your terminal to get the app started.
+4. Run npm run dev or yarn dev from your terminal to get the app started.
 
 
 ## Public Link
